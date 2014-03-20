@@ -1,0 +1,145 @@
+
+ #searchBachka{
+ 	border-style: groove;
+ }
+ 
+ #searchBachkaId{
+ 	width: 100%;
+	height:100%;
+	/*border-style: double;*/
+ 
+ 	
+ }
+ #displayBachkaId{
+
+  width: 100%;
+  height:100%;
+  /*border-style:ridge;*/
+  	
+ }
+ 
+ #searchBachkaForm{
+ margin-top: 25px;
+ cell-spacing:2px;
+ 
+ }
+ 
+
+ .selectColumn{
+ 	width: 40%;
+ }
+ 
+ 
+ body{
+ 	background-color:transparent
+ }
+ 
+ .checkbox{
+ background:transparent url(../images/check_white.png) left top no-repeat
+
+ }
+ 
+ #outer1,#outer2{
+ 	padding: 5px;
+ 	behavior: url(css/border-radius.htc);	
+	border-radius: 11px;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	
+	width: 95%;
+	border: 1 px solid black;
+	/* background-image: url('../images/criminal_background_div.jpg'); */
+}
+
+.bachka{
+	/*padding: 5px;*/
+ 	border-radius: 11px;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	behavior: url(css/border-radius.htc);	
+	border: 1 px solid black;
+	background-color:#BEF781;
+	border:1px solid #98bf21;
+}
+ 
+ #loading {  
+    position:absolute;  
+    width:300px;  
+    top:320px;  
+    left:50%;  
+    margin-left:130px;  
+    text-align:center;  
+    padding:7px 0 0 0;  
+    font:bold 11px Arial, Helvetica, sans-serif;  
+  
+}
+
+/* css for mixture table and selected mixture table  */
+#bachkaTable,#selectedBachkaTable{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:100%;
+	border-collapse:collapse;
+	
+}
+#bachkaTable td, #bachkaTable th ,#selectedBachkaTable td , #selectedBachkaTable th
+{
+ font-size:12px;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+}
+
+
+#bachkaTable th ,#selectedBachkaTable th
+{
+font-size:15px;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#A7C942;
+color:#ffffff;
+}
+#bachkaTable tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+
+/*  css for item by group code */
+#itemByGroupCodeTable,#selectedBachkaTable1{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:100%;
+	border-collapse:collapse;
+}
+
+#itemByGroupCodeTable td, #itemByGroupCodeTable th , #selectedBachkaTable1 th , #selectedBachkaTable1 td
+{
+ font-size:12px;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+}
+
+
+#itemByGroupCodeTable th , #selectedBachkaTable1 th
+{
+font-size:15px;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#A7C942;
+color:#ffffff;
+}
+
+.alt 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+
+.button{
+	width: 100px;
+	background-color:#EAF2D3;
+}
+.textfield{
+	background-color:#EAF2D3;
+	
+} 

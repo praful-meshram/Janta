@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <display-name>RMS</display-name>
+    <description>
+This it to Test the RMS functionality
+    </description>
+<welcome-file-list>
+	<welcome-file>index.jsp</welcome-file>
+	<welcome-file>LoginForm.jsp</welcome-file>
+</welcome-file-list>                                                                                                                          
+<env-entry>
+	<env-entry-name>url</env-entry-name>
+	<env-entry-value>jdbc:mysql://192.168.0.200:3306/js_data?autoReconnect=true</env-entry-value>
+<!-- 	<env-entry-value>jdbc:mysql://localhost:3306/js_data?autoReconnect=true</env-entry-value> -->
+	<env-entry-type>java.lang.String</env-entry-type>
+</env-entry>
+
+<env-entry>
+	<env-entry-name>username</env-entry-name>
+	<env-entry-value>root</env-entry-value>
+	<env-entry-type>java.lang.String</env-entry-type>
+</env-entry>
+<env-entry>
+	<env-entry-name>password</env-entry-name>
+	<env-entry-value>@ss123</env-entry-value>
+	<env-entry-type>java.lang.String</env-entry-type>
+</env-entry>
+<env-entry>
+	<env-entry-name>imagesfile</env-entry-name>
+	<env-entry-value>/images/barcodeImages/</env-entry-value>
+	<env-entry-type>java.lang.String</env-entry-type>
+</env-entry>
+<env-entry>
+		<env-entry-name>Reports</env-entry-name>
+		<env-entry-value>/WEB-INF/Reports/</env-entry-value>
+		<env-entry-type>java.lang.String</env-entry-type>
+</env-entry>
+<env-entry>
+		<env-entry-name>pdffiles</env-entry-name>
+		<env-entry-value>/pdffiles/</env-entry-value>
+		<env-entry-type>java.lang.String</env-entry-type>
+</env-entry>
+
+<env-entry>
+        <env-entry-name>jrxmlPath</env-entry-name>
+        <env-entry-value>/Print/</env-entry-value>
+      	<env-entry-type>java.lang.String</env-entry-type>
+</env-entry>
+<env-entry>
+        <env-entry-name>pdfPath</env-entry-name>
+        <env-entry-value>/Print/</env-entry-value>
+      	<env-entry-type>java.lang.String</env-entry-type>
+</env-entry>
+<env-entry>
+        <env-entry-name>jasper</env-entry-name>
+        <env-entry-value>/Report/SubReport/</env-entry-value>
+      	<env-entry-type>java.lang.String</env-entry-type>
+</env-entry>
+    
+</web-app>

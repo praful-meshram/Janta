@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" pageWidth="660" pageHeight="432" columnWidth="626" leftMargin="0" rightMargin="34" topMargin="0" bottomMargin="0" uuid="78d82dc4-db7b-44b1-b44d-e9ceb9e318b0">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="style1"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Table Dataset 1" uuid="0c61ce99-3ef7-4f7f-a656-08f97e7f1ca3"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="add1" class="java.lang.String">
+		<fieldDescription><![CDATA[add1]]></fieldDescription>
+	</field>
+	<field name="add2" class="java.lang.String">
+		<fieldDescription><![CDATA[add2]]></fieldDescription>
+	</field>
+	<field name="addressLine1" class="java.lang.String">
+		<fieldDescription><![CDATA[addressLine1]]></fieldDescription>
+	</field>
+	<field name="addressLine2" class="java.lang.String">
+		<fieldDescription><![CDATA[addressLine2]]></fieldDescription>
+	</field>
+	<field name="adv_amt" class="java.lang.Float">
+		<fieldDescription><![CDATA[adv_amt]]></fieldDescription>
+	</field>
+	<field name="area" class="java.lang.String">
+		<fieldDescription><![CDATA[area]]></fieldDescription>
+	</field>
+	<field name="bal_amt" class="java.lang.Float">
+		<fieldDescription><![CDATA[bal_amt]]></fieldDescription>
+	</field>
+	<field name="block" class="java.lang.String">
+		<fieldDescription><![CDATA[block]]></fieldDescription>
+	</field>
+	<field name="building" class="java.lang.String">
+		<fieldDescription><![CDATA[building]]></fieldDescription>
+	</field>
+	<field name="buildingNo" class="java.lang.String">
+		<fieldDescription><![CDATA[buildingNo]]></fieldDescription>
+	</field>
+	<field name="class" class="java.lang.Class">
+		<fieldDescription><![CDATA[class]]></fieldDescription>
+	</field>
+	<field name="custCode" class="java.lang.String">
+		<fieldDescription><![CDATA[custCode]]></fieldDescription>
+	</field>
+	<field name="custName" class="java.lang.String">
+		<fieldDescription><![CDATA[custName]]></fieldDescription>
+	</field>
+	<field name="deliveryRemark" class="java.lang.String">
+		<fieldDescription><![CDATA[deliveryRemark]]></fieldDescription>
+	</field>
+	<field name="disRemark" class="java.lang.String">
+		<fieldDescription><![CDATA[disRemark]]></fieldDescription>
+	</field>
+	<field name="dis_amt" class="java.lang.Float">
+		<fieldDescription><![CDATA[dis_amt]]></fieldDescription>
+	</field>
+	<field name="itemCount" class="java.lang.String">
+		<fieldDescription><![CDATA[itemCount]]></fieldDescription>
+	</field>
+	<field name="itemMRP" class="java.lang.Float">
+		<fieldDescription><![CDATA[itemMRP]]></fieldDescription>
+	</field>
+	<field name="itemName" class="java.lang.String">
+		<fieldDescription><![CDATA[itemName]]></fieldDescription>
+	</field>
+	<field name="itemQty" class="java.lang.Integer">
+		<fieldDescription><![CDATA[itemQty]]></fieldDescription>
+	</field>
+	<field name="itemTotPriceToJsPrice" class="java.lang.Float">
+		<fieldDescription><![CDATA[itemTotPriceToJsPrice]]></fieldDescription>
+	</field>
+	<field name="orderDate" class="java.lang.String">
+		<fieldDescription><![CDATA[orderDate]]></fieldDescription>
+	</field>
+	<field name="orderNo" class="java.lang.String">
+		<fieldDescription><![CDATA[orderNo]]></fieldDescription>
+	</field>
+	<field name="p_type" class="java.lang.String">
+		<fieldDescription><![CDATA[p_type]]></fieldDescription>
+	</field>
+	<field name="phone" class="java.lang.String">
+		<fieldDescription><![CDATA[phone]]></fieldDescription>
+	</field>
+	<field name="savings" class="java.lang.String">
+		<fieldDescription><![CDATA[savings]]></fieldDescription>
+	</field>
+	<field name="station" class="java.lang.String">
+		<fieldDescription><![CDATA[station]]></fieldDescription>
+	</field>
+	<field name="taken_ind" class="java.lang.String">
+		<fieldDescription><![CDATA[taken_ind]]></fieldDescription>
+	</field>
+	<field name="totalItems" class="java.lang.Integer">
+		<fieldDescription><![CDATA[totalItems]]></fieldDescription>
+	</field>
+	<field name="totalItemsRemain" class="java.lang.Integer">
+		<fieldDescription><![CDATA[totalItemsRemain]]></fieldDescription>
+	</field>
+	<field name="totalItemsTaken" class="java.lang.Integer">
+		<fieldDescription><![CDATA[totalItemsTaken]]></fieldDescription>
+	</field>
+	<field name="totalValue" class="java.lang.Float">
+		<fieldDescription><![CDATA[totalValue]]></fieldDescription>
+	</field>
+	<field name="wing" class="java.lang.String">
+		<fieldDescription><![CDATA[wing]]></fieldDescription>
+	</field>
+	<field name="userName" class="java.lang.String">
+		<fieldDescription><![CDATA[userName]]></fieldDescription>
+	</field>
+	<field name="itemWeight" class="java.lang.String">
+		<fieldDescription><![CDATA[itemWeight]]></fieldDescription>
+	</field>
+	<field name="image" class="java.awt.Image">
+		<fieldDescription><![CDATA[image]]></fieldDescription>
+	</field>
+	<field name="bufferedImage" class="java.awt.image.BufferedImage">
+		<fieldDescription><![CDATA[bufferedImage]]></fieldDescription>
+	</field>
+	<field name="other_charges_amt" class="java.lang.String">
+		<fieldDescription><![CDATA[other_charges_amt]]></fieldDescription>
+	</field>
+	<pageHeader>
+		<band height="114">
+			<textField>
+				<reportElement x="71" y="37" width="26" height="13" uuid="d74a6cb7-642b-453c-b917-4875de3a62aa"/>
+				<textFieldExpression><![CDATA[$F{totalItems}+" -"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="97" y="37" width="17" height="13" uuid="0b2f9409-ae46-4bc0-ae4c-41ef83acc9b3"/>
+				<textFieldExpression><![CDATA[$F{totalItemsTaken}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="114" y="37" width="27" height="13" uuid="084b71b5-0e85-4af3-8e9c-5c849222016f"/>
+				<textFieldExpression><![CDATA["= "+$F{totalItemsRemain}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="214" y="45" width="115" height="23" uuid="e5187f30-0393-4397-aaba-c373f41cb835"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{orderDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="329" y="45" width="50" height="23" uuid="c3dd47a3-12aa-4a81-a4f2-dddb5b4d2ec0"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["("+$F{userName}+")"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="37" y="69" width="75" height="19" uuid="8f1c9063-e99c-4f8f-9277-62c33283377a"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{custCode}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="184" y="69" width="129" height="17" uuid="46d02112-597a-4089-a8e9-eb2bfec0ca4a"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{custName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="69" width="90" height="17" uuid="ddb2ade9-22e0-4879-ae52-81507fba17bc"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{deliveryRemark}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="37" y="87" width="353" height="14" uuid="f46f3799-362b-4eba-9f60-4d60e303d2b9"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{addressLine1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="37" y="99" width="332" height="15" uuid="34a23ce2-576a-4d29-8d5d-b2c56b83b072"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{addressLine2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="426" y="87" width="118" height="16" uuid="54726a33-9334-4fc9-813d-843b33f7adb5"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{phone}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="393" y="98" width="64" height="15" uuid="1f605e0b-2ec0-4365-9e8c-a85568af7ddb"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Order No :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="457" y="98" width="96" height="15" uuid="d20e94be-3e69-4017-9fc6-046fe0495ac1"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{orderNo}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="285" y="0" width="77" height="17" uuid="89ace8c8-b0b6-4ece-b3ce-8124551a110a"/>
+				<imageExpression><![CDATA[$F{bufferedImage}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="379" y="69" width="89" height="17" uuid="78d9cbb6-3414-4454-97ab-9e53b58b7f80"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{other_charges_amt}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="17"/>
+	</columnHeader>
+	<detail>
+		<band height="17" splitType="Prevent">
+			<textField>
+				<reportElement x="73" y="0" width="32" height="17" uuid="232ee960-180d-48f6-8a2d-6a7f7d5ee22a"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{itemQty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="112" y="0" width="293" height="17" uuid="9adab012-66b9-4a2f-a437-10aa00d1276a"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{itemName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="418" y="0" width="50" height="17" uuid="db2e9a1b-96ff-48ec-83c0-1ee5ea450722"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{disRemark}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="475" y="0" width="44" height="17" uuid="8af1154e-0792-446d-8b17-469efcc05cfd"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{itemTotPriceToJsPrice}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="0" width="58" height="17" uuid="80a6eaa8-b091-4a10-8fa9-d99653f25962"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{itemWeight}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="517" y="0" width="71" height="17" uuid="8748ca34-f96a-4ab3-86ba-fb17642665f9"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{itemMRP}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="42"/>
+	</pageFooter>
+	<lastPageFooter>
+		<band height="42">
+			<textField>
+				<reportElement x="135" y="0" width="71" height="18" uuid="cb8cf6a3-791c-43b4-8e72-e2645cc680f5"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["D :"+$F{dis_amt}+")"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="214" y="0" width="67" height="17" uuid="081a2638-62de-4449-a57c-0db9c08895a0"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Bal :"+$F{bal_amt}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="0" width="51" height="18" uuid="639bf3a9-e4d0-4104-8f08-57164c9d0d40"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["(A :"+$F{adv_amt}+","]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="285" y="0" width="75" height="18" uuid="8f74246f-bb91-4fb2-baea-faf2208ec492"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["("+($F{p_type})+")"]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.00">
+				<reportElement x="5" y="0" width="86" height="17" uuid="cf594bbe-ab60-4b3a-bc00-9c93e205fa50"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Total :"+$F{totalValue}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="229" y="18" width="100" height="18" uuid="3a7e6d14-3202-4b07-a84f-46bf9ab600a5"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{savings}]]></textFieldExpression>
+			</textField>
+		</band>
+	</lastPageFooter>
+</jasperReport>

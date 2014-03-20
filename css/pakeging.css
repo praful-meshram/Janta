@@ -1,0 +1,167 @@
+#pakeging_body{
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#roundedDiv{
+	background-color: #BEF781;	
+	padding: 5px;	
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	behavior: url(css/border-radius.htc);
+	width: 80%;
+	height:175px;
+	border: 1 px solid black;
+	
+}
+#roundedDiv1{
+	background-color: #BEF781;	
+	padding: 5px;	
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	behavior: url(css/border-radius.htc);
+	width: 49.6%;
+	height:200px;
+	border: 1 px solid black;
+}
+
+#roundedDiv2{
+	background-color: #BEF781;	
+	padding: 5px;	
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	behavior: url(css/border-radius.htc);
+	width: 49.6%;
+	height:200px;
+	border: 1 px solid black;
+}
+
+#search_table th{
+	font-size: 11px;
+}
+#serch_div_table_main{
+	height: 100%;
+	width: 100%;
+	margin-top: -13px;
+}
+#serch_div_table th{
+	font-size: 11px;
+}
+#searchItemListDiv{
+	width: 100%;
+	height: 150px;
+}
+.hideTextField1{
+	border: 0px;
+	font-family: Arial, Helvetica, sans-serif;	
+	background-color: #EFFBEF;
+	color: #4f6b72;   
+    font-size: 40%;      
+}
+.hideTextField{
+	border: 0px;
+	font-family: Arial, Helvetica, sans-serif;	
+	background-color: #EFFBEF;
+	color: #4f6b72;   
+    font-size: 80%;      
+}
+
+.hideTextField2{
+	border: 0px;
+	font-family: Arial, Helvetica, sans-serif;	
+	background-color:#EFFBEF;
+	color: #4f6b72;   
+    font-size: 80%;      
+}
+
+// css for mouse popup
+#popupMouseOver{
+ 	width:170px;
+ 	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+ 	border:2px solid black;
+ 	background-color: #BEF781;
+ 	behavior: url(css/border-radius.htc);
+ 	display:none;
+ 	position:absolute;
+ }
+ #right{
+ 	height:16px;
+ 	width:14px;
+ 	background-image: "url(../images/black_triangle.gif)";
+ 	position:absolute;
+ 	float:right;
+ 	margin-top:5px;
+ 	margin-left:171px;
+
+ }
+ #close{
+ 	position:absolute;
+ 	float:right;
+ 	margin-top:0px;
+ 	margin-left:160px;
+ 	cursor:pointer;
+ 	color:red;
+ }
+ .menulired{
+	background-color: #a43333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	border-right: #a43333 2px solid;
+	border-top: #fff 4px double;
+	border-left: #a43333 2px solid;
+	border-bottom: #fff 4px double;
+	z-index:100; 
+}
+.menulired:hover
+{
+	background-color: #a43333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	border-right: #a43333 2px solid;
+	border-top: #fff 4px double;
+	border-left: #a43333 2px solid;
+	border-bottom: #fff 4px double;
+	z-index:100; 
+}
+.menulired:visited{
+	background-color: #a43333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	border-right: #a43333 2px solid;
+	border-top: #fff 4px double;
+	border-left: #a43333 2px solid;
+	border-bottom: #fff 4px double;
+	z-index:100; 
+}
+
+.genericTbl {    
+    background-color: #EFFBEF;
+    color: #4f6b72;   
+    font-size:72%;    
+    padding: 0;
+    margin: 0;
+
+}
+.genericTbl th{    
+    background-color: #BEF781;
+}
+.genericTbl1 td{
+	background-color: #EFFBEF;
+}

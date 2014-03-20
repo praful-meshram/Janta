@@ -1,0 +1,6 @@
+Database changes
+1. item_purchase_details: new table
+2. scheme: new table
+3. vat: new table
+4. user_type_access: add two row: 1) user_type_code=2,screen_name=ItemDetails.jsp
+								  2) user_type_code=2,screen_name=SaveItemPurchaseDetails.jsp

@@ -1,0 +1,55 @@
+/* Generic class for all drop areas */
+.dropArea {
+	border-top: 2px solid  #7e7b76;
+	border-left: 2px solid  #7e7b76;
+	border-right: 2px solid  #efeeeb;
+	border-bottom: 2px solid  #efeeeb;
+}
+
+/* Class for a static drop area, so the sizes are set here */
+.staticDropArea {
+	width:260px;
+	height:141px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+/* Container of all drop areas */
+.dropAreasContainer {
+	height: 160px;
+}
+
+/* General classes */
+
+/* General item class */
+.item {
+	border-top: 1px solid  black;
+	border-left: 1px solid  black;
+	border-right: 1px solid  black;
+	padding-left: 5px;
+	-moz-user-select: none;
+}
+
+/* General class for last item */
+.lastItem {
+	border-bottom: 1px solid  black;
+}
+
+
+/* Silver drop area classes */
+.silverDropArea, .silverItem, .silverButton {
+	background-color: #cfc5c5;
+}
+
+.silverHighlight {
+	background-color: silver;
+}
+
+/* Gold drop area classes */
+.goldDropArea, .goldItem, .goldButton {
+	background-color: #cfc5c5;
+}
+
+.goldHighlight {
+	background-color:  #cfc5c5;
+}

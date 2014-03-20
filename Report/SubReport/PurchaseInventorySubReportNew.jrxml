@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PurchaseItemInventoryReport" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ce56aecc-c502-4489-90bd-e902fdd562c6">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="billNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[billNumber]]></fieldDescription>
+	</field>
+	<field name="class" class="java.lang.Class">
+		<fieldDescription><![CDATA[class]]></fieldDescription>
+	</field>
+	<field name="enteredBy" class="java.lang.String">
+		<fieldDescription><![CDATA[enteredBy]]></fieldDescription>
+	</field>
+	<field name="itemCode" class="java.lang.String">
+		<fieldDescription><![CDATA[itemCode]]></fieldDescription>
+	</field>
+	<field name="itemMRP" class="java.lang.Float">
+		<fieldDescription><![CDATA[itemMRP]]></fieldDescription>
+	</field>
+	<field name="itemName" class="java.lang.String">
+		<fieldDescription><![CDATA[itemName]]></fieldDescription>
+	</field>
+	<field name="itemQty" class="java.lang.Integer">
+		<fieldDescription><![CDATA[itemQty]]></fieldDescription>
+	</field>
+	<field name="itemRate" class="java.lang.Float">
+		<fieldDescription><![CDATA[itemRate]]></fieldDescription>
+	</field>
+	<field name="poDate" class="java.lang.String">
+		<fieldDescription><![CDATA[poDate]]></fieldDescription>
+	</field>
+	<field name="po_number" class="java.lang.Integer">
+		<fieldDescription><![CDATA[po_number]]></fieldDescription>
+	</field>
+	<field name="siteName" class="java.lang.String">
+		<fieldDescription><![CDATA[siteName]]></fieldDescription>
+	</field>
+	<field name="site_id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[site_id]]></fieldDescription>
+	</field>
+	<field name="vendorName" class="java.lang.String">
+		<fieldDescription><![CDATA[vendorName]]></fieldDescription>
+	</field>
+	<field name="vendor_id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[vendor_id]]></fieldDescription>
+	</field>
+	<pageHeader>
+		<band height="24">
+			<textField>
+				<reportElement uuid="c63803ab-32ad-42b6-be46-a43c28564785" x="0" y="4" width="272" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[" Vendor  : "+$F{vendorName}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="62c12c2b-d2c7-4ab9-bf15-c5ceac20be0e" x="0" y="0" width="20" height="20"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[PO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="95b8a8bc-f2eb-42f5-a922-ca4def79c5c1" x="20" y="0" width="141" height="20"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Item Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e8fadb24-536f-4f03-bd2b-6a901c04b806" x="196" y="0" width="32" height="20"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[MRP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="4d4530ea-3fed-4009-b216-04fbd8bb406b" x="228" y="0" width="32" height="20"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[QTY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="8c49e39c-ea2d-4715-b629-8a579284acdf" x="164" y="0" width="32" height="20"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Rate]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="888c1f2b-352f-4565-a1f7-f33e1a4497ea" x="260" y="0" width="65" height="20"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Total Price]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="7dc438f2-05ec-46a0-a3b2-8b017c8ad91f" x="325" y="0" width="59" height="20"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Total MRP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="480c019f-d168-47d3-8dc2-ba6567d48bc5" x="385" y="0" width="94" height="20"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Site]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2d55d858-e303-4638-9116-411226e6c48e" x="479" y="0" width="89" height="20"/>
+				<textElement>
+					<font isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Entred By]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="12" splitType="Stretch">
+			<textField>
+				<reportElement uuid="dfee31a2-4565-456a-9f1a-ed9626007192" x="0" y="0" width="20" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{po_number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="ee4d8820-d4be-4e27-93c4-738d0369a984" x="20" y="0" width="141" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{itemName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="ecac95a0-efbb-4a31-a2a1-119929702f4e" x="164" y="0" width="32" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{itemRate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="b2a2669a-5ee7-45d1-92e3-bfd92a49d7c6" x="196" y="0" width="32" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{itemMRP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="0d125bb7-f8e9-4a9c-be74-9f1efc1cc0ac" x="228" y="0" width="32" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{itemQty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="27032ca1-da25-420c-8651-7314bf3f47cd" x="260" y="0" width="65" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{itemRate}*$F{itemQty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="1e267079-70f1-4eaa-ad33-e5d6e25a7751" x="325" y="0" width="59" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{itemMRP}*$F{itemQty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="444047bd-cacf-457d-aee0-29667fe15f1c" x="387" y="0" width="94" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{siteName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="e3cf2ffe-59de-4573-91ab-6c06a225f0a0" x="481" y="0" width="89" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{enteredBy}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PurchaseInvenotory_subreport1" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="20baa584-80a6-4e37-9595-b16ea45f8f33">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="79"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Table Dataset 1" uuid="d3a39d3e-9e6c-4ca2-92b7-b705c26b557e"/>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<field name="billNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[billNumber]]></fieldDescription>
+	</field>
+	<field name="class" class="java.lang.Class">
+		<fieldDescription><![CDATA[class]]></fieldDescription>
+	</field>
+	<field name="enteredBy" class="java.lang.String">
+		<fieldDescription><![CDATA[enteredBy]]></fieldDescription>
+	</field>
+	<field name="itemCode" class="java.lang.String">
+		<fieldDescription><![CDATA[itemCode]]></fieldDescription>
+	</field>
+	<field name="itemMRP" class="java.lang.Float">
+		<fieldDescription><![CDATA[itemMRP]]></fieldDescription>
+	</field>
+	<field name="itemName" class="java.lang.String">
+		<fieldDescription><![CDATA[itemName]]></fieldDescription>
+	</field>
+	<field name="itemQty" class="java.lang.Integer">
+		<fieldDescription><![CDATA[itemQty]]></fieldDescription>
+	</field>
+	<field name="itemRate" class="java.lang.Float">
+		<fieldDescription><![CDATA[itemRate]]></fieldDescription>
+	</field>
+	<field name="poDate" class="java.lang.String">
+		<fieldDescription><![CDATA[poDate]]></fieldDescription>
+	</field>
+	<field name="po_number" class="java.lang.Integer">
+		<fieldDescription><![CDATA[po_number]]></fieldDescription>
+	</field>
+	<field name="siteName" class="java.lang.String">
+		<fieldDescription><![CDATA[siteName]]></fieldDescription>
+	</field>
+	<field name="site_id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[site_id]]></fieldDescription>
+	</field>
+	<field name="vendorName" class="java.lang.String">
+		<fieldDescription><![CDATA[vendorName]]></fieldDescription>
+	</field>
+	<field name="vendor_id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[vendor_id]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="73" splitType="Stretch">
+			<componentElement>
+				<reportElement uuid="66468507-7b2d-4acc-bb28-f23a55c593d0" key="table 6" style="table 6" x="0" y="0" width="595" height="125"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Table Dataset 1" uuid="057f0d98-85da-46aa-ad16-699dea154c15"/>
+					<jr:column width="90" uuid="3e0722f8-6ee8-4c99-9349-929f5eb2d70a">
+						<jr:tableHeader style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:tableFooter style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:columnHeader style="table 6_CH" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="fb8aed97-1d28-4e3a-bc51-bcaf940d70ec" x="0" y="0" width="90" height="30"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[PO Number]]></textFieldExpression>
+							</textField>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 6_CH" height="30" rowSpan="1"/>
+						<jr:detailCell style="table 6_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="307f6620-7a8b-4360-be3e-5ac42a92b6c9" x="0" y="0" width="90" height="20"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[$F{po_number}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="b1cec7ce-15a3-492c-bc99-5249d1a7d2fd">
+						<jr:tableHeader style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:tableFooter style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:columnHeader style="table 6_CH" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="02a0ed50-f8b5-48de-ba40-667983dc9bf1" x="0" y="0" width="90" height="30"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[Item Name]]></textFieldExpression>
+							</textField>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 6_CH" height="30" rowSpan="1"/>
+						<jr:detailCell style="table 6_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="ff3f91c9-2b0a-4e9f-a845-3c8d1a30ffc1" x="0" y="0" width="90" height="20"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[$F{itemName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="9d9c1f93-9a6b-4848-8e63-6779d876c67e">
+						<jr:tableHeader style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:tableFooter style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:columnHeader style="table 6_CH" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="40dd68e7-519e-4ae3-a0a0-9a2dd3deab5b" x="0" y="0" width="90" height="30"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[Item MRP]]></textFieldExpression>
+							</textField>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 6_CH" height="30" rowSpan="1"/>
+						<jr:detailCell style="table 6_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="f4ebb861-82e4-45e4-a4a2-31356bf0c193" x="0" y="0" width="90" height="20"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[$F{itemMRP}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="67bdc5f5-d126-4069-b348-000f16b3cc7b">
+						<jr:tableHeader style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:tableFooter style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:columnHeader style="table 6_CH" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="c4548e16-73c9-4505-a2f5-c4f9e1a1da9b" x="0" y="0" width="90" height="30"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[Item Rate]]></textFieldExpression>
+							</textField>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 6_CH" height="30" rowSpan="1"/>
+						<jr:detailCell style="table 6_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="3cddff02-fb83-4b20-a543-ddcf3e311c0f" x="0" y="0" width="90" height="20"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[$F{itemRate}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="2aeeea75-9b61-49c9-93aa-f3de7a657627">
+						<jr:tableHeader style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:tableFooter style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:columnHeader style="table 6_CH" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="0126deb8-8222-4cc5-b7a6-593c7b6a52e6" x="0" y="0" width="90" height="30"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[Qty]]></textFieldExpression>
+							</textField>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 6_CH" height="30" rowSpan="1"/>
+						<jr:detailCell style="table 6_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="79a87a0e-c20d-4f1a-a13b-4dacf172faf1" x="0" y="0" width="90" height="20"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[$F{itemQty}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="dbe27c0a-d1fa-4aed-977f-b75c7590a709">
+						<jr:tableHeader style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:tableFooter style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:columnHeader style="table 6_CH" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="a9849c9a-2e9b-4a0b-8079-8c100eeebd9d" x="0" y="0" width="90" height="30"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[Item Name]]></textFieldExpression>
+							</textField>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 6_CH" height="30" rowSpan="1"/>
+						<jr:detailCell style="table 6_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="471cb816-66bc-495e-aaab-12ff3689d91f" x="0" y="0" width="90" height="20"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[$F{siteName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="cecb19d1-b8a6-42f0-8133-2f58d4fc0679">
+						<jr:tableHeader style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:tableFooter style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:columnHeader style="table 6_CH" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="4a656695-ceaf-4c87-a5c9-039104eda69a" x="0" y="0" width="90" height="30"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[Total Price]]></textFieldExpression>
+							</textField>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 6_CH" height="30" rowSpan="1"/>
+						<jr:detailCell style="table 6_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="64fa7fb9-e8e9-4500-8995-b6685709063e" x="0" y="0" width="90" height="30"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[$F{itemRate}*$F{itemQty}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="27464eb4-3916-4c2e-b30d-5303bd436b16">
+						<jr:tableHeader style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:tableFooter style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:columnHeader style="table 6_CH" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="4a09182f-0e8b-4a9b-981d-f0d983cc07c8" x="0" y="0" width="90" height="30"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[Total MRP]]></textFieldExpression>
+							</textField>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 6_CH" height="30" rowSpan="1"/>
+						<jr:detailCell style="table 6_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="47b9dd1c-6e95-4e75-9873-48fd8890d4a3" x="0" y="0" width="90" height="30"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[$F{itemMRP}*$F{itemQty}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="82cff306-b0c5-40f8-a305-f9cfbff5bd2f">
+						<jr:tableHeader style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:tableFooter style="table 6_TH" height="30" rowSpan="1"/>
+						<jr:columnHeader style="table 6_CH" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="0e243f36-9d3c-42dc-92e5-138c1b08e731" x="0" y="0" width="90" height="30"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[Vendor]]></textFieldExpression>
+							</textField>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 6_CH" height="30" rowSpan="1"/>
+						<jr:detailCell style="table 6_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="86b5c751-5ce9-4e8d-8bd4-db3e5cd7b85e" x="0" y="0" width="90" height="30"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[$F{vendorName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="e3cfa46d-35fd-465d-bac7-1f94de2d62e8">
+						<jr:tableHeader style="table 5_TH" height="30" rowSpan="1"/>
+						<jr:tableFooter style="table 5_TH" height="30" rowSpan="1"/>
+						<jr:columnHeader style="table 5_CH" height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="023a78c3-42a7-45a6-974e-51f54d56af98" x="0" y="0" width="90" height="30"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[Entered By]]></textFieldExpression>
+							</textField>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 5_CH" height="30" rowSpan="1"/>
+						<jr:detailCell height="30" rowSpan="1">
+							<textField>
+								<reportElement uuid="163100b2-607e-4528-b83b-c88755cf361e" x="0" y="0" width="90" height="30"/>
+								<textElement/>
+								<textFieldExpression><![CDATA[$F{enteredBy}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,12 @@
+<Context path="/Janta" reloadable="true">
+	<Resource name="jdbc/js" auth="Container" type="javax.sql.DataSource"
+	maxActive="100" maxIdle="30" maxWait="10000" username="root" password="@ss123"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://localhost:3306/js_data?autoReconnect=true"/>
+		
+	<Resource name="jdbc/re" auth="Container" type="javax.sql.DataSource" maxActive="100"
+	maxIdle="30" maxWait="10000" username="root" password="@ss123" 
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://localhost:3306/js_data?autoReconnect=true"/>
+</Context>
+

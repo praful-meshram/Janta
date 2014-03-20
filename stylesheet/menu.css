@@ -1,0 +1,103 @@
+autocomplete {
+    font-family: Tahoma;
+    font-size: 8pt;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    cursor: default;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.autocomplete_item {
+    padding: 1px;
+    padding-left: 5px;
+    color: black;
+    width: 100%;
+}
+
+.autocomplete_item_highlighted {
+    padding: 1px;
+    padding-left: 5px;
+    color: white;
+    background-color: #0A246A;
+}
+
+.ddm1 {
+    font: 11px tahoma;
+    z-index: -1;
+}
+.ddm1 .item1,
+.ddm1 .item1:hover,
+.ddm1 .item1-active,
+.ddm1 .item1-active:hover {
+    padding: 3px 8px 4px 8px;
+    border: 1px #003366;
+    border-style: solid none solid none;
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+.ddm1 .item1 {
+    background: #ECFB99;
+    color: #00000f;
+}
+.ddm1 .item1:hover,
+.ddm1 .item1-active,
+.ddm1 .item1-active:hover {
+    background: #3264C7;
+    color: #ffffff;
+}
+.ddm1 .item2,
+.ddm1 .item2:hover {
+    padding: 3px 8px 4px 8px;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+}
+.ddm1 .item2 {
+    background: #ECFB99;
+    color: #000000;
+}
+.ddm1 .item2:hover {
+    background: #6699FF;
+    color: #ffffff;
+}
+.ddm1 .item3,
+.ddm1 .item3:hover,
+.ddm1 .item3-active,
+.ddm1 .item3-active:hover {
+    padding: 3px 8px 4px 8px;
+    border: 1px #003366;
+    border-style: solid solid solid solid;
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+.ddm1 .item3 {
+    background: #ECFB99;
+    color: #00000f;
+}
+.ddm1 .item3:hover,
+.ddm1 .item3-active,
+.ddm1 .item3-active:hover {
+    background: #ECFB99;
+    color: #00000f;
+}
+.ddm1 .section {
+    border: 1px #003366;
+    border-style: solid solid solid solid;
+    position: absolute;
+    visibility: hidden;
+	
+    white-space: nowrap;
+}
+
+.ddm1 .item4 {F
+    color: white;
+}
+
+.ddm1 .left, .ddm1 .left:hover { border-style: solid none solid solid; }
+.ddm1 .right, .ddm1 .right:hover { border-style: solid solid solid none; }
+
+* html .ddm1 td { position: relative; } /* ie 5.0 fix */

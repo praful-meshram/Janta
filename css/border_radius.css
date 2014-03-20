@@ -1,0 +1,235 @@
+/*
+ @author : sanketa
+ @date : 26-07-2011
+*/
+
+.bodyClass {
+		 font-family: Arial, Helvetica, sans-serif;
+	     font-size:11pt;
+	     background: white;
+	     margin: 0;
+	     padding: 0px;
+	                
+}
+.roundedSearchTextField {
+	border: 2px solid  #BEF781;
+	padding: 3px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	behavior: url(css/border-radius.htc);
+	text-align: center;
+}
+.roundedSearchTextField:HOVER {
+	background-color:#efffdd; 
+}
+.roundedSearchTextField:VISITED {
+	background-color:#fff; 
+}
+
+.roundedDiv{
+	background-color: #BEF781;	
+	padding: 5px;	
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	behavior: url(css/border-radius.htc);
+	width: 80%;
+	
+	
+}
+
+.selectBox{	
+	border : #BEF781;
+	
+}
+.custorderinfo{
+	width:100%;	
+}
+.custorderinfo th{
+    color: #4f6b72;
+ 	font-size: 60%;   
+    text-align: left;    
+}
+.custorderinfo td{ 	
+	color: #4f6b72;
+ 	font-size: 60%;
+    text-align: left;
+}
+
+.maroonButton
+{
+	background-color: #a43333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+    border-right: #a43333 4px solid;
+	border-top: #a43333 4px double;
+	border-left: #a43333 4px solid;
+	border-bottom: #a43333 4px double;
+}
+
+.maroonButton:HOVER{	
+	font-size: 10pt;	
+}
+
+.menulired{
+	background-color: #a43333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	border-right: #a43333 2px solid;
+	border-top: #fff 4px double;
+	border-left: #a43333 2px solid;
+	border-bottom: #fff 4px double;
+	z-index:100; 
+}
+.menulired:hover
+{
+	background-color: #a43333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	border-right: #a43333 2px solid;
+	border-top: #fff 4px double;
+	border-left: #a43333 2px solid;
+	border-bottom: #fff 4px double;
+	z-index:100; 
+}
+.menulired:visited{
+	background-color: #a43333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	border-right: #a43333 2px solid;
+	border-top: #fff 4px double;
+	border-left: #a43333 2px solid;
+	border-bottom: #fff 4px double;
+	z-index:100; 
+}
+
+.genericTbl {    
+    background-color: #EFFBEF;
+    color: #4f6b72;   
+    font-size:72%;    
+    padding: 0;
+    margin: 0;
+
+}
+
+.genericTbl th, .genericTbl td {
+    padding: 1px 5px 2px 5px;
+}
+
+.genericTbl th {
+    border-top: 1px  #C1DAD7;
+    /*text-transform: uppercase;*/
+    text-align: left;
+    background-color: #BEF781;
+
+}
+
+.genericTbl td {
+    border-right: 1px solid #BEF781;
+    border-bottom: 1px solid #E0F8E0;
+    margin: 0; /*color: #4f6b72;*/    
+}
+
+.genericTbl td.leftmost {
+    border-left: 1px solid #E0F8E0;
+}
+
+.genericTbl tr.even {
+    background: #FFFFE0;
+}
+
+.hideTextField{
+	border: 0px;
+	font-family: Arial, Helvetica, sans-serif;	
+	background-color: #EFFBEF;
+	color: #4f6b72;   
+    font-size: 90%;    
+   
+}
+
+.hideTextFieldGreen{
+	border: 0px;
+	font-family: Arial, Helvetica, sans-serif;	
+	background-color: #BEF781;
+	color: #4f6b72;   
+    font-size: 90%;    
+   
+} 
+.imgButton{
+	background-image: "url(../images/find.gif)";
+	border: 0px;
+	cursor: pointer;
+	width: 40px;
+	height: 16px;
+	background-repeat: no-repeat;
+	
+}
+.imgButtonSearch{
+	background-image: "url(../images/search.gif)";
+	border: 0px;
+	cursor: pointer;
+	width: 20px;
+	height: 16px;
+	background-repeat: no-repeat;
+	
+}
+.transparent1 {
+    filter:alpha(opacity=80);
+   	display:none;
+    width:470;
+    height:40;
+    position:center;
+    color: black;
+    z-index:1;
+}
+
+#popupMouseOver{
+ 	width:170px;
+ 	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+ 	border:2px solid black;
+ 	background-color: #BEF781;
+ 	behavior: url(css/border-radius.htc);
+ 	display:none;
+ 	position:absolute;
+ }
+ #right{
+ 	height:16px;
+ 	width:14px;
+ 	background-image: "url(../images/black_triangle.gif)";
+ 	position:absolute;
+ 	float:right;
+ 	margin-top:5px;
+ 	margin-left:171px;
+ }
+ #close{
+ 	position:absolute;
+ 	float:right;
+ 	margin-top:0px;
+ 	margin-left:160px;
+ 	cursor:pointer;
+ 	color:red;
+ }
+ #change{
+ 	color:blue;
+ 	text-decoration:underline;
+ }
+
